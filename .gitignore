@@ -1,0 +1,24 @@
+# dependencias de Node.js
+node_modules/
+
+# build de producción
+dist/
+
+# archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# cachés
+.vite/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# configuración del editor (VS Code, etc.)
+.vscode/
+
+# archivos del sistema
+.DS_Store
+Thumbs.db
