@@ -12,13 +12,17 @@ const Usuarios = () => {
   }, []);
 
   const cargarUsuarios = async () => {
-    try {
-      const data = await obtenerUsuarios();
-      setUsuarios(data);
-    } catch (error) {
-      console.error('Error al obtener usuarios:', error);
-    }
-  };
+  try {
+    const data = await obtenerUsuarios();
+    {/*console.log("📦 Respuesta de obtenerUsuarios:", data);*/}
+    {/*console.log("¿Es array?", Array.isArray(data));*/}
+    setUsuarios(data);
+  } catch (error) {
+    {/*console.error('Error al obtener usuarios:', error);*/}
+    setUsuarios([]);
+  }
+};
+
 
   const manejarEnvio = async (e) => {
   e.preventDefault();
@@ -61,11 +65,15 @@ const Usuarios = () => {
       </form>
 
       <ul>
-        {usuarios.map((u) => (
+        {Array.isArray(usuarios) ? (
+          usuarios.map((u) => (
           <li key={u.id}>
-            <strong>{u.nombre}</strong> — {u.correo}
+           <strong>{u.nombre}</strong> — {u.correo}
           </li>
-        ))}
+        ))
+        ) : (
+          <li>No hay usuarios disponibles.</li>
+        )}
       </ul>
     </div>
   );
