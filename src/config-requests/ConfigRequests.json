@@ -1,0 +1,53 @@
+{
+    "Login" : "/api/auth/token",
+    "Register" : "/api/Register/NewUser",
+    "Profile" : "/api/v1/Account/Profile/MyInfo",
+    "Balance" : "/api/v1/Account/Profile/MyBalance",
+    "UserProfileActualizar" : "/api/v1/Account/Profile/UpdateInfo",
+    "Countries" : "/api/v1/General/Countries/All",
+    "CountriesActives" : "/api/v1/General/Countries/Actives",
+    "Depositar" : "/api/v1/Account/Deposits/Execute",
+    "TransListDeposRealizados" : "/api/v1/Account/Deposits/History",
+    "TransListDeposRecibidos" : "/api/v1/Account/Deposits/Received",
+    "HomePageVendedor": "/api/v1/Sales/CryptoLottery/Sell",
+    "PlayLoterry" : "/api/v1/Sales/LocalLottery/Sell", 
+    "LotteryByCountry" : "/api/v1/General/LocalLotteries/ByCountry/",  
+    "SalesListVentasCryptoLotto" : "/api/v1/Sales/CryptoLottery/HistoryByUser",
+    "SalesListVentasLocal" : "/api/v1/Sales/LocalLottery/HistoryByUser",
+    "TransRecharg" : "/api/v1/LotteryHome/HomeTransfers/532bb6af-0838-4cbc-868c-c7f4885b649a/HistoryNoPag",
+    "TransferPag" : "/api/v1/LotteryHome/HomeTransfers/532bb6af-0838-4cbc-868c-c7f4885b649a/HistoryPag",
+    "TransRecharg2" : "/api/v1/LotteryHome/HomeRecharges/532bb6af-0838-4cbc-868c-c7f4885b649a/HistoryNoPag",
+    "RechargPag" : "/api/v1/LotteryHome/HomeRecharges/532bb6af-0838-4cbc-868c-c7f4885b649a/HistoryPag",
+    "TransRecharg3" : "/api/v1/LotteryHome/Home/getAll",
+
+    "HomeRecharges" : "/api/v1/LotteryHome/HomeRecharges/",
+    "HomeTransfers" : "/api/v1/LotteryHome/HomeTransfers/",
+    "Notas" : "Recordar que el HomeRecharges y HomeTransfers, son compuesto de /api/v1/LotteryHome/HomeRecharges/d9b3d72f-0abe-46fe-be37-32fec5a36629/Recharge y /api/v1/LotteryHome/HomeTransfers/d9b3d72f-0abe-46fe-be37-32fec5a36629/Transfer",
+
+
+    "ForgotPassReset" : "/api/auth/PasswordReset",
+    "ChangePassReset" : "/api/auth/ChangePassword",
+    "SweetAlert" : "//api.github.com/users/",
+
+    "Walles" : "/api/v1/CryptoLotto/Wallets",
+
+    "Questions" : "/api/v1/",
+
+    "ClaimPrize" : "/api/v1/ClaimPrize/LotteryClaim/Claim",
+    "ClaimPrizeCountries" : "/api/v1/General/Countries/All",
+    "ClaimPrizeByCountry" : "/api/v1/General/PaymentMethods/ByCountry/", 
+
+    "Invest" : "/api/v1/Account/Profile/MyBalance", 
+    "InvestUserActivity" : "/api/v1/Account/Profile/MyBalance", 
+
+    "Result" : "/api/v1/CryptoLotto/WinnerResults/Get", 
+
+
+    "ImagenHomePageCrypLotto" : "https://criplotto-winning.site/CryptoImagenes/Lotteries.jpg",
+    "ImagenLotteries" : "https://criplotto-winning.site/CryptoImagenes/publicidad.png",
+    "ImagenChangeLOBtoCLB" : "https://criplotto-winning.site/CryptoImagenes/publicidad.png",
+    "ImagenInvest" : "https://criplotto-winning.site/CryptoImagenes/publicidad.png",
+    "ImagenResult" : "https://criplotto-winning.site/CryptoImagenes/publicidad.png"
+    
+    
+}
