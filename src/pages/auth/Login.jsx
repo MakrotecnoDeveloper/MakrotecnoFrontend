@@ -12,6 +12,15 @@ import {
 
 import { Form, FormGroup, Spinner, Alert } from "reactstrap";
 
+import { useForm } from "react-hook-form";
+import { Link } from "react-router-dom";
+
+import { useTranslation } from 'react-i18next';
+
+//import Request from '../../config-requests/ConfigRequests.json';
+
+
+
 import axios from 'axios';
 import API_BASE_URL from '../../services/api';
 
